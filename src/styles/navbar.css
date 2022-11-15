@@ -1,0 +1,17 @@
+#nav{
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: #D9D7F1;
+}
+
+img{
+    height: 3rem;
+}
+
+.nav-item {
+    color: #685ed5;
+}
+
+.nav link:hover{
+    color:#685ed5;
+}
