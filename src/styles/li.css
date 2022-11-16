@@ -1,0 +1,74 @@
+#corpo{
+    background-color: #FFFDDE;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    min-height:100vh
+}
+
+.li {
+    display: flex;
+}
+
+#titleLI {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #f5c7f3;
+    color: #685ed5;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 15px 10px #b3d2e8;
+}
+
+#Nivel {
+    color: #685ed5;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow:  #f5c7f3;
+    font-size: 50px;
+}
+
+#select {
+    margin: auto;
+    width: 30%;
+    background-color: #E7FBBE;
+}
+
+#card{
+    display: grip;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.58);
+}
+#nomeCard{
+    padding-left: 35%;
+}
+
+.card-body {
+    background-color: white;
+}
+#cardBody{
+    border: none;
+    
+}
+
+.profile img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+   
+}
+
+#cardMeio{
+    border-left: 2px dotted lightgrey;
+    border-right: 2px dotted lightgrey
+}
+
+.corpo{
+    padding: 40px;
+}

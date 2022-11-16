@@ -1,0 +1,309 @@
+/*Home*/
+
+.Home{
+    width:100%;
+    margin:0 auto;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFDDE;
+}
+
+
+#body {
+    background-color: #FFFDDE;
+    min-height:100vh;
+    padding-top: 5%;
+    width: 100%;
+}
+
+#cardMellow {
+    padding-top: 100px;
+    
+}
+
+#mellowVerde {
+    width: 18rem;
+    background-color: #FFCBCB;
+    padding-top: 10px;
+}
+
+.card-img-top{
+    width: 62%;
+    height: 60%;
+    margin: auto;
+}
+
+#carrossel {
+    padding-top: 48px;
+}
+
+#legenda {
+    font-weight: 500;
+}
+
+
+
+/*Troca de livros*/
+#jumbo{
+    background-color: #FFCBCB;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#jumboTitle{
+    color:#FFFDDE;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2.4rem;
+}
+
+#btnL {
+    background-color: #FFFDDE;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.offcanvas{
+    background-color: #D9D7F1;
+}
+
+#lista{
+    text-decoration: none !important;
+    list-style: none !important;
+    color: black;
+}
+
+#mellow{
+    margin-left: 30%;
+    height: 10rem;
+}
+
+.flex-container{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    
+}
+
+#cardPrincipal{
+    width: auto;
+    background-color: white;
+    border: none;
+}
+
+#cardImg{
+    width: 30%; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#input{
+    width: 30%;
+    margin: 2px;
+    margin-bottom: 5px;
+}
+
+#btnDown1{
+    background-color: transparent;
+}
+
+#btnDown2{
+    background-color: transparent;
+}
+
+#btnDown3{
+    background-color: transparent;
+}
+
+#btnInput{
+    background-color: transparent;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: #E7FBBE;
+}
+
+
+
+/*Livros interativos*/
+#corpo{
+    background-color: #FFFDDE;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    min-height:100vh
+}
+
+.li {
+    display: flex;
+}
+
+#titleLI {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #f5c7f3;
+    color: #685ed5;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 15px 10px #b3d2e8;
+}
+
+#Nivel {
+    color: #685ed5;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow:  #f5c7f3;
+    font-size: 50px;
+}
+
+#select {
+    margin: auto;
+    width: 30%;
+    background-color: #E7FBBE;
+}
+
+#card{
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.58);
+    background-color: white;
+}
+#nomeCard{
+    padding-left: 35%;
+}
+
+#cardBody{
+    border: none;
+    
+}
+
+.profile img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+   
+}
+
+#cardMeio{
+    border-left: 2px dotted lightgrey;
+    border-right: 2px dotted lightgrey
+}
+
+.corpo{
+    padding: 40px;
+}
+
+/*Quem Somos*/
+#recode {
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 10px;
+}
+
+#trioMellow {
+    width: 20rem;
+    height: 10rem;
+    margin-left: 38%;
+    margin-right: 45%;
+}
+
+#texto {
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #d9d7f1a1;
+    border-radius: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#p {
+    line-height: 35px;
+    font-size: large;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*Cadastro*/
+.form {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.mb-3 {
+    color: #b3d2e8;
+    border-radius: 100px;
+    margin: 0 auto;
+    max-width: 100vh;
+    position: relative;
+}
+
+#bodyCadastro {
+    background-color: #FFFDDE;
+    min-height: 110vh;
+    padding-top: 2%;
+}
+
+#btnCadastro {
+    margin-left: 40%;
+    background-color: #d9d7f1a1;
+}
+
+/*Admin*/
+#bodyAdmin {
+    background-color: #FFFDDE;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#btnAdmin {
+    margin-left: 45%;
+    background-color: #d9d7f1a1;
+}
+
+
+/*Cards admin*/
+#admin {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#usuario {
+    background-color:#D9D7F1;
+}
+
+#login {
+    background-color:#D9D7F1;
+}
+
+#livrosInt {
+    background-color:#D9D7F1;
+}
+
+#livros {
+    background-color:#D9D7F1;
+}
+
+#tamanho {
+    background-color:#D9D7F1;
+    width: 24rem;
+}
